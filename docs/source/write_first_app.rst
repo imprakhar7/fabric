@@ -213,11 +213,11 @@ This is a representation of how a query works:
 First, let's run our ``query.js`` program to return a listing of all the cars on
 the ledger. We will use our second identity -- ``user1`` -- as the signing entity
 for this application. The following line in our program specifies ``user1`` as
-the signer:
+the signer: (you don't need to run this command, this is already handeled in query.js)
 
 .. code:: bash
 
-  fabric_client.getUserContext('user1', true);
+  fabric_client.getUserContext('user1', true); 
 
 Recall that the ``user1`` enrollment material has already been placed into our
 ``hfc-key-store`` subdirectory, so we simply need to tell our application to grab that identity.
